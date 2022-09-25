@@ -54,3 +54,39 @@ print('Concatenation example: ', 'hello ' + 'there!');
 
 # Accessing characters using 0-indexing: 
 print('Element at 0th position in name is: ', name[0]);
+
+
+# ******************** TYPE CASTING *******************
+# Implicit: Python does that for you (Eg: 123.50 will be stored as float)
+# Explicit: Use inbuilt functions such as int(), float(), str()
+
+# int(): converts strings to numbers
+print(int('55')); # Ans: 55
+# float(): converts int numbers to float 
+print(float(55)); # Ans: 55.0
+# str(): converts numbers to strings
+print(str(55)); # Ans: '55'
+
+# ord(): returns int representing underlying unicode char
+# hex(): int to hex
+# oct(): int to octa and returns as string
+# set(): 
+# dict(): 
+# list(): 
+
+
+# ************************* INPUT() *************************
+# Used to get user input
+
+email = input('Please enter an email: ');
+print('Email: ', email)
+
+# PRINT FUNCTION CAN TAKE MULTIPLE ARGUMENTS TOO
+# EG: print(obj1_name, obj2_name, sep=', ')
+# sep() here is a seperator function which will seperate the object
+# with ', '
+print('Srikar', 'Phani Kumar', sep=', ');
+
+num1 = input('Enter num1: ');
+num2 = input('Ente num2: ');
+print(num1, num2)
